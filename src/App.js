@@ -5,8 +5,7 @@ import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
 
 const App = () => {
-    // On doit être le 24 décembre 2024 pour que ça fonctionne
-    return <Router basename={"/margauxfleureau"}>
+    return <Router>
         <Routes>
             <Route path="*" element={<Home />} />
             <Route path="/experience" element={<Experience />} />

@@ -44,6 +44,32 @@ class Experience extends React.Component {
 
                                 <div className="timeline ps-lg-5">
                                     <div className="timeline-item">
+                                        <img src={process.env.PUBLIC_URL + "/images/iscom.jpeg"} alt="Les petits doudous" className="timeline-image" />
+                                        <div className="timeline-content">
+                                            <h3>Assistante communication commerciale</h3>
+                                            <span className="date">Mars 2025 - Aujourd'hui</span>
+                                            <p>
+                                                À la suite de mon stage, j'ai l'honneur de poursuivre mes activités mais en tant qu'intérimaires. <br />
+                                                J'ai donc les mêmes missions que pendant mon stage :<br /><br />
+
+                                                - Prospection et création de relations,<br />
+                                                - Préparation et organisation d'événements,<br />
+                                                - Aménagement et rangements des espaces de travails,<br />
+                                                - Assistance à mes supérieurs dans la coordination des pré-événements.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="timeline-item">
+                                        <img src={process.env.PUBLIC_URL + "/images/iscom.jpeg"} alt="Les petits doudous" className="timeline-image" />
+                                        <div className="timeline-content">
+                                            <h3>Stagière au service communication ISCOM</h3>
+                                            <span className="date">Janvier 2025 - Mars 2025</span>
+                                            <p>
+                                                J'ai pu co-organiser des moments de promotion de l'école, notamment lors de journées et soirées portes ouvertes, le tout en travail d'équipe. En plus, j'ai eu l'occasion de faire de la prospection auprès de profils intéressés par l'école.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="timeline-item">
                                         <img src={process.env.PUBLIC_URL + "/images/lpd.webp"} alt="Les petits doudous" className="timeline-image" />
                                         <div className="timeline-content">
                                             <h3>Chargée de communication chez Les Petits Doudous</h3>
